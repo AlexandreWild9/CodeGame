@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Matricule-se</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img id="logo" src="logo.png" alt="Logo">  
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li> <a href="cursos.html">Cursos</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a> </li>
+                <li><a href="matricule-se.html">Matricule-se</a> </li>
+                <li><a href="meucodegame.html">Meu CodeGame</a> </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        
+        <form class="form">
+            <fieldset>
+                <legend>Agende um aula Grátis</legend>
+                <br>
+                <div>
+                    <label for="Nomecompleto">Nome Completo</label>
+                    <br>    
+                    <input type="text" id="Nomecompleto" class="input-padrao">
+                </div>
+                <br><br>
+                 <div>
+                    <label for="email"class="labelIn">Email</label>
+                    <br>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+                    
+                 </div> 
+                 <br><br>  
+                <div>
+                    <label for="celular">Celular</label>
+                    <br>
+                    <input type="tel" id="celular" class="input-padrao" required placeholder="(xx)-xxxxx-xxxx">
+                </div>
+                <br><br>
+                <div>
+                    <label for="turma">Ano/Turma escolar do seu filho(a)*</label>
+                    <input type="text" id="turma" class="input-padrao">
+                </div>
+                <br><br>
+                <div>
+                    <label for="sexo">Sexo</label>
+                    <br>
+                    <input type="radio" name="sexo" id="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="feminino">
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" name="sexo" id="outro">
+                    <label for="outro">Outro</label>
+
+                </div>
+                <br><br>
+                <div>
+                    <label for="data-nascimento"><b>Data de data-nascimento</b></label>
+                    <input type="date" name="data-nascimento" id="data-nascimento"required>
+                </div>
+                <br><br>
+                <div>
+                    <label for="select-estado">Qual o seu estado?</label>
+                    <select id="estado" name="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                    </select>
+                </div> 
+                <br><br>
+                <fieldset>
+                    <label for="aula">Como deseja realizar as aulas?</label>
+                    <br>
+                    <input type="radio" name="presencial" id="presencial"required>
+                    <label for="presencial">Presencial</label>
+                    <br>
+                    <input type="radio" name="online" id="online" required>
+                    <label for="online">Online</label>
+                </fieldset>
+                <br>  
+                <input class="checkbox" type="checkbox" class="input-padrao" required>
+                <label>Gostaria de Receber novidades por e-mail?</label>
+                <br><br>
+                <input type="submit" value="Enviar Formulário" id="submit">
+            </fieldset>
+            
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,202 @@
+h1 {
+    font-size: 50px;
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h2{
+    font-size: 3em;
+    text-align: left;
+    color: #ffffff;
+}
+
+#logo {
+    padding: 2px 200px;
+}
+
+header {
+    padding: 20px 0;
+
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 20px;
+    color: #88b5c2;
+    padding: 10px 20px;
+    margin: 30px;
+    background: #88b5c2;
+    border-radius: 4px;
+
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #6b9ab6, #032535);
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    word-spacing: 2px;
+    color: #88b5c2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:  10px 0;
+    margin-left: 40px;
+}
+#t1 {
+    background-color: #88b5c2;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    padding: 8px 6px;
+    border-radius: 4px;
+    
+}
+.cursos {
+    margin: 0 auto;
+    padding: 80px;
+}
+.cursos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 5600px;
+    padding: 30px 0;
+    vertical-align: top;
+    border: 50px;
+}
+
+.curso-descricao {
+    font-size: 20px;
+    text-align: left;
+    width: 80%;
+    height: 100px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 80px;
+    text-align: justify;
+    
+}
+
+.mais-info {
+    display: inline;
+    float: left;
+    font-size: 18px;
+    border: 20px;
+    padding: 10px 0;
+    margin: 20px 0;
+    background-color: #88b5c2;
+    color: black;
+    font-weight: bold;
+    padding: 8px 6px;
+    border-radius: 4px;
+
+}
+
+/* Definições para a pagina Matricule-se*/
+
+form{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #88b5c2;
+    
+}
+
+.input-padrao {
+    width: 80%;
+}
+.padrao {
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    
+}
+
+legend{
+    border: 1px solid ;
+    font-size: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background:  white;
+}
+
+#submit {
+
+    text-align: center;
+    padding: 3px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+#submit:hover {
+    background: #154358;
+
+}
+
+/*Definições para a Página Sobre-nós */
+
+#f1 {
+    text-align: justify;
+    margin: 30px 25%;
+    font-size: 23px;
+}
+
+#f2 {
+    font-size: 30px;
+    color: wheat;
+    font-weight: bold;
+    text-align: center;
+}
+
+.f3 {
+    text-align: center;
+    color: wheat;
+    margin: 40px;
+}
+
+.f3::before {
+    content: "<";
+    color: #88b5c2;
+}
+
+.f3::after {
+    content: ">";
+    color: #88b5c2;
+}
+
+
+table {
+    margin: 20px 0 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+thead {
+    background: #88b5c2;
+    color: black;
+    font-weight: bold;
+
+}
+
+td, th {
+    border: 1px solid;
+    padding: 8px px;    
+}
+
+tbody {
+    background: #e6e1e1;
+}
